@@ -21,18 +21,22 @@ int main()
   
   // Declare a matrix to store the product and initialize to 0
   float matrix_product[3][3];
-  for(int k=0;k<3;k++)
+  int k;
+  int l;
+  for(k=0;k<3;k++)
     {
-      for(int l=0;l<3;l++)
+      for(l=0;l<3;l++)
 	{
 	  matrix_product[k][l]=0;
 	}
     }
 
   // Calculate the production
-  for(int i=0;i<3;i++)
+  int i;
+  int j;
+  for(i=0;i<3;i++)
     {
-      for(int j=0;j<3;j++)
+      for(j=0;j<3;j++)
 	{
 	  // In the case of A multiply B, the row of A and the column of B are fixed
 	  //
