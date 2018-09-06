@@ -23,7 +23,10 @@ int main()
   float matrix_product[3][3];
   for(int k=0;k<3;k++)
     {
-      matrix_product[k][k]=0;
+      for(int l=0;l<3;l++)
+	{
+	  matrix_product[k][l]=0;
+	}
     }
 
   // Calculate the production
