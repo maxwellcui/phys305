@@ -8,7 +8,7 @@ The order of the topics does not follow a strict study of system. It, instead, f
 - [Command Line Interface](#command-line-interface)
 - [Command options](#command-options)
 
-[**File**](#file)
+[**Files**](#files)
 - [File Types](#file-types)
 
 # Command
