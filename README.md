@@ -15,6 +15,8 @@ I will use this repository to post information and/or codes that I think will be
 If you have any question, please feel free to use the [Issues](https://github.com/maxwellcui/phys305/issues) module above.
 Simply open a new issue and post your question. Please don't hesitate to do so because your question may also help other students, and everyone can join the discussion. Or if you have any question that you want to discuss in private, we can always do it through email or schedule an appointment.
 
+***Please read [this](https://github.com/maxwellcui/phys305/issues/1) issue and help hunt down typos!***
+
 ## Items
 ### Lecture code
 The sample codes for the class exercise are stored in the directory with the lecture number. There is no "correct answer" for a code, as long as your program works and does what you want it to do! That means the code I provided is just a reference, you can totally write a more compact, efficient and better program.
