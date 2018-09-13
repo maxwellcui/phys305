@@ -10,7 +10,7 @@ The order of the topics does not follow a strict study of system. It, instead, f
 
 [**Files**](#files)
 - [File Types](#file-types)
-- [Save Output](save-output)
+- [Save Output](#save-output)
 
 # Command
 ## Command line interface
