@@ -10,6 +10,7 @@ The order of the topics does not follow a strict study of system. It, instead, f
 
 [**Files**](#files)
 - [File Types](#file-types)
+- [Save Output](save-output)
 
 # Command
 ## Command line interface
@@ -85,3 +86,12 @@ This is not the end of the file story. Sometimes you may have something that you
 .git                       README.md                  training
 ```
 Now you see five more files with `.` at the beginning of the file name, note that `.` and `..` are the current directory and upper directory. With this being said, your Nobel prize code is in danger, you may want to save it in another way. If you dig deeper in the linux system, you will notice that this type of hidden files usually serve as configuration files. Go to you home directory `~/` and type `ls -a` see what do have in your home directory. Since they are hidden from the normal `ls` command without the `-a` option, this will decrease the possibility of accident such as deleting a configuration file. (I also feel this make the directory looks better)
+
+## Save Output
+To Save the contents printed on the screen, we can add the `>` after our program. For example, for the very first program, `helloworld.c`, it prints the syntax "Hello world!" on the screen. If we want to save the output in a file named `data.dat`. We can do
+```shell
+./helloworld.c > data.data
+```
+A more formal name of this operation is called output redirection. Every time you use the `>` redirection operator, it creates a new file. That means whatever has the same name before the operation will be over written, so please make sure you use a safe name and have a copy of your data.
+
+In the case that you don't always want to create a new file but append new contents in an existing file, use the `>>` operator instead. If the file does not exist, it creates a new file.
