@@ -15,13 +15,13 @@ int main()
   c=0.0;
 
   // Ask the user to enter the number for the three coefficients
-  printf("Please enter the number for coefficent a: ");
+  printf("Please enter the number for coefficient a: ");
   scanf("%f",&a);
 
-  printf("Please enter the number for coefficent b: ");
+  printf("Please enter the number for coefficient b: ");
   scanf("%f",&b);
 
-  printf("Please enter the number for coefficent c: ");
+  printf("Please enter the number for coefficient c: ");
   scanf("%f",&c);
 
   // Print the entered values for the three coefficients
@@ -50,7 +50,7 @@ int main()
       float realPart, imaginaryPart;
       realPart=-b/(2*a);
       imaginaryPart=sqrt(fabs(delta))/(2*a);
-      printf("There are two different complex solutionss: %0.2f+i*%0.2f and %0.2f-i*%0.2f\n",realPart,imaginaryPart,realPart,imaginaryPart);
+      printf("There are two different complex solutions: %0.2f+i*%0.2f and %0.2f-i*%0.2f\n",realPart,imaginaryPart,realPart,imaginaryPart);
     }
   
   return 0;
