@@ -6,7 +6,7 @@
 
 int main()
 {
-  // Declare and initialize two 3x3 matricies
+  // Declare and initialize two 3x3 matrices
   float A[3][3]={
     {1,2,3},
     {4,5,6},
